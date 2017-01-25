@@ -30,7 +30,7 @@
   ],
   "dependencies": {
     "gulp-util": "^3.0.0",
-    "marked": "EsriJapan/marked",
+    "marked": "git+https://github.com/EsriJapan/marked.git",
     "through2": "^2.0.0"
   },
   "devDependencies": {
