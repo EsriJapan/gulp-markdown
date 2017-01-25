@@ -1,7 +1,7 @@
 'use strict';
 var gutil = require('gulp-util');
 var through = require('through2');
-var marked = require('./lib/marked');
+var marked = require('marked');
 
 module.exports = function (options) {
 	return through.obj(function (file, enc, cb) {
